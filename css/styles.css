@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+* {
+  font-family: "Lato", sans-serif;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #747704;
+}
+#logo {
+  width: 70px;
+  margin-top: 15px;
+}
+
+.larger-img,
+picture {
+  max-width: 100%;
+  width: 100%;
+}
+
+.smaller-img {
+  max-width: 100%;
+  width: 100%;
+}
+.card-text{
+  padding: 37.5px 0px;
+  font-weight: 400;
+  font-size: 21px;
+  color: #000;
+}
+
+.cat {
+  float: right;
+  margin-right: 1%;
+}
+.cat-ui {
+  color: #FF2D93;
+}
+.cat-ui {
+  color: #FF2D93;
+}
+.cat-fend {
+  color: #FF792B;
+}
+.cat-cc {
+  color: #2DFF50;
+}
+.completed-signifier {
+  font-weight: 100;
+  font-size: 18px;
+  color: #666;
+  margin: 0px 1%;
+}
+.text-thin {
+  font-weight: 100;
+}
+
+.text-muted {
+  font-weight: 400;
+  color: #ccc;
+}
+
+h3 {
+  font-weight: 400;
+  color: #999;
+}
+
+h4 {
+  font-weight: 300;
+  color: #3089da;
+}
+h4.card-title {
+  position: absolute;
+  left: 4%;
+  top: 10%;
+  color: white;
+  font-size: 38px;
+  z-index: 12;
+}
+
+hr {
+  border: 2px solid aliceblue;
+}
+
+.word-break {
+  word-break: break-all;
+}
+.card {
+  background: #f3f3f3;
+  border-radius: 4px;
+}
+img.m-a {
+  margin: auto;
+}
+
+img.rounded {
+  border-radius: 4px;
+}
+
+img {
+  cursor: pointer;
+}
+
+.shim-container-main{
+  background: linear-gradient(45deg, blue, red);
+  opacity: .6;
+  height: 350px;
+  border-radius: 4px 4px 0px 0px;
+
+}
+.shim-container-small{
+  background: linear-gradient(45deg, blue, red);
+  text-align: center;
+  opacity: .6;
+  height: 200px;
+  border-radius: 4px 4px 0px 0px;
+}
+.shim-container-small h4 {
+  color: white;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#img-1 {
+  background: #eb01a5;
+  background-image: url("../images/LandingPage-500_small.png"); /* fallback */
+  background-image: url("../images/LandingPage-500_small.png"), linear-gradient(#000, #ccc); /* W3C */
+}
+
+.modal-body {
+  padding: 0px;
+}
+.modal-body p {
+  padding: 0px 10px;
+  color: #666;
+}
+.modal-inner-title {
+  color: black;
+  font-weight: 100;
+  margin-left: 2%;
+}
+@media (max-width: 600px) {
+  h1.text-thin {
+    font-size: 16px;
+  }
+  h4.text-muted {
+    font-size: 14px;
+  }
+  h4.card-title {
+    font-size: 18px;
+    margin-left: 4%;
+  }
+}
